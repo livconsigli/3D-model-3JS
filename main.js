@@ -29,7 +29,7 @@ loader.load('/model.glb', (gltf) => {
 
 function animate() {
   requestAnimationFrame(animate);
-  if (model) model.rotation.y += 0.002;
+  if (model) model.rotation.y += 0.02;
   renderer.render(scene, camera);
 }
 animate();
